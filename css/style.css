@@ -80,8 +80,12 @@ a{
 
 /* titolo */
 .titolo{
-    background-color: rgb(255, 150, 64);
-    height: 100px;
+    /* background-color: rgb(255, 150, 64); */
+    height: 160px;
+}
+
+.Leadership{
+    padding-top: 50px;
 }
 
 /* colonne */
@@ -91,33 +95,33 @@ a{
 
 .col-left, .col-center, .col-right{
     float: left;
-    /* padding: 10px; */
+    width: 100%;
 }
 
 .col-left, .col-right{
     width: 20%;
 }
 
-.col-left{
-    background-color: tomato;
-}
-
-.col-right{
-    background-color: yellow;
-}
-
 .col-center{
-    background-color: rgb(253, 144, 18);
-    width: calc(60% - 40px);
-    margin: 0px 20px;
-
+    width: calc(60% - 50px);
+    margin: 0px 25px;
 }
 
-/* immagini colonne */
+/* testo colonna */
+.text-col{
+    padding-top: 30px;
+}
+
+
 .col-img{
-    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
     width: 100%;
-    height: 240px;
+    height: 260px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .col-img-L{
