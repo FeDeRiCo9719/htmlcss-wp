@@ -1,0 +1,95 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/* COMMON */
+.container{
+    margin: auto;
+    width: 80%;
+}
+
+.clearfix::after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+/* HEADER */
+header{
+    background-color: yellowgreen;
+    height: 150px;
+    width: 100%;
+}
+
+.logo{
+    width: 14%;
+    border: 1px solid red;
+}
+
+/* navigazione */
+li{
+    display: inline-block;
+}
+
+
+
+/* MAIN */
+
+.slider-box{
+    background-color: teal;
+    height: 600px;
+    width: 100%;
+    margin: 20px 0 20px 0;
+    position: relative;
+}
+
+section{
+    background-color: rgb(191, 255, 249);
+}
+
+/* titolo */
+.titolo{
+    background-color: rgb(255, 150, 64);
+    height: 80px;
+}
+
+/* colonne */
+
+.row{
+    padding: 20px 0px;
+}
+
+.col-left, .col-center, .col-right{
+    float: left;
+    /* height: 300px; */
+    padding: 10px;
+}
+
+.col-left, .col-right{
+    width: 20%;
+}
+
+.col-left{
+    background-color: tomato;
+}
+
+.col-right{
+    background-color: yellow;
+}
+
+.col-center{
+    background-color: rgb(253, 144, 18);
+    width: calc(60% - 40px);
+    margin: 0px 20px;
+
+}
+
+
+/* FOOTER */
+.footer{
+    background-color: violet;
+    height: 100px;
+    margin-bottom: 40px;
+}
