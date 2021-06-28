@@ -38,7 +38,8 @@ li{
 /* MAIN */
 
 .slider-box{
-    background-color: teal;
+    /* background-color: teal; */
+    background-image: url("../img/banner.jpg");
     height: 600px;
     width: 100%;
     margin: 20px 0 20px 0;
