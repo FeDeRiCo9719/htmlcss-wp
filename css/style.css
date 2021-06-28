@@ -50,17 +50,33 @@ a{
 /* MAIN */
 
 .slider-box{
-    /* background-color: teal; */
+    position: relative;
     background-image: url("../img/banner.jpg");
-    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
     width: 100%;
     margin: 20px 0 20px 0;
-    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
 }
 
-section{
-    background-color: rgb(191, 255, 249);
+.dark-box{
+    position: absolute;
+    background-color: rgba(36, 11, 11, 0.3);
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
 }
+
+.text-slider{
+    color: rgb(255, 255, 255);
+    margin: 350px 0px 0px 50px;
+    width: 40%;
+}
+
 
 /* titolo */
 .titolo{
