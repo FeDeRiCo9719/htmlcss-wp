@@ -18,21 +18,33 @@
 
 /* HEADER */
 header{
-    background-color: yellowgreen;
-    height: 150px;
+    height: 180px;
     width: 100%;
+    /* border: 1px solid red; */
 }
 
 .logo{
     width: 14%;
-    border: 1px solid red;
+    border-right: 2px solid rgb(220, 220, 220);
+    padding-right: 20px;
+    padding-top: 20px;
 }
 
 /* navigazione */
-li{
-    display: inline-block;
+nav{
+    /* border: 1px solid red; */
+    margin-top: 30px;
 }
 
+li{
+    display: inline-block;
+    padding-right: 10px;
+}
+
+a{
+    color: rgb(175, 175, 175);
+    text-decoration: none;
+}
 
 
 /* MAIN */
