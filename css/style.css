@@ -24,7 +24,6 @@ body{
 header{
     height: 180px;
     width: 100%;
-    /* border: 1px solid red; */
 }
 
 .logo{
@@ -36,11 +35,10 @@ header{
 
 /* navigazione */
 nav{
-    /* border: 1px solid red; */
     margin-top: 30px;
 }
 
-li{
+nav li{
     display: inline-block;
     padding-right: 10px;
 }
@@ -76,8 +74,10 @@ a{
 }
 
 .text-slider{
+    position: absolute;
+    bottom: 70px;
+    left: 70px;
     color: rgb(255, 255, 255);
-    margin: 350px 0px 0px 50px;
     width: 40%;
 }
 
@@ -86,7 +86,7 @@ section p{
     color: rgb(150, 150, 150);
 }
 
-.Leadership h2{
+.Leadership h1{
     font-size: 40px;
 }
 
@@ -153,11 +153,10 @@ section p{
 
 /* FOOTER */
 .footer{
-    /* background-color: violet; */
     height: 150px;
     margin-bottom: 40px;
     text-align: center;
-    padding-top: 80px; 
+    padding-top: 100px;
 }
 
 .heart{
