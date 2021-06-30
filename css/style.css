@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-/* COMMON */
+/*------------------- COMMON -------------------*/
 .container{
     margin: auto;
     width: 80%;
@@ -26,7 +26,7 @@ body{
     object-fit: cover;
 }
 
-/* HEADER */
+/*------------------- HEADER -------------------*/
 header{
     height: 180px;
     width: 100%;
@@ -39,7 +39,7 @@ header{
     padding-top: 20px;
 }
 
-/* NAVIGAZIONE */
+/*------------------- NAVIGAZIONE -------------------*/
 nav{
     margin-top: 30px;
 }
@@ -55,7 +55,7 @@ a{
 }
 
 
-/* MAIN */
+/*------------------- MAIN -------------------*/
 
 .slider-box{
     position: relative;
@@ -87,7 +87,7 @@ a{
     width: 40%;
 }
 
-/* SECTION */
+/*------------------- SECTION -------------------*/
 section p{
     color: rgb(150, 150, 150);
 }
@@ -96,7 +96,7 @@ section p{
     font-size: 40px;
 }
 
-/* SEZIONE LEADERSHIP */
+/*------------------- SEZIONE LEADERSHIP -------------------*/
 .Leader-section {
     height: 160px;
 }
@@ -105,7 +105,7 @@ section p{
     padding-top: 50px;
 }
 
-/* COLONNE */
+/*------------------- COLONNE -------------------*/
 .row p{
     margin-top: 10px;
 }
@@ -128,7 +128,7 @@ section p{
     margin: 0px 25px;
 }
 
-/* TESTO COLONNA */
+/*------------------- TESTO COLONNA -------------------*/
 .text-col{
     padding-top: 30px;
 }
@@ -157,7 +157,7 @@ section p{
     background-image: url("../img/img-3.jpg");
 }
 
-/* FOOTER */
+/*------------------- FOOTER -------------------*/
 .footer{
     height: 150px;
     margin-bottom: 40px;
